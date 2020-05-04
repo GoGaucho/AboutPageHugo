@@ -1,6 +1,7 @@
-baseURL = "https://gogaucho.app/"
-DefaultContentLanguage = "en"
+baseURL = "https://about.gogaucho.app/"
+defaultContentLanguage = "en"
 title = "GoGaucho"
+publishDir = "docs"
 
 theme = "coder"
 enableEmoji = true
@@ -15,11 +16,11 @@ googleAnalytics = "UA-63624052-6"
 [languages]
 	[languages.en]
 		languageCode = "en-us"
-		baseURL = "https://gogaucho.app/"
+		baseURL = "https://about.gogaucho.app/"
 	[languages.zh]
     	languageCode = "zh-cn"
     	info = "UCSB最佳app"
-    	baseURL = "https://gogaucho.app/zh/"
+    	baseURL = "https://about.gogaucho.app/zh/"
     	[[languages.zh.params.social]]
 		    name = "苹果AppStore"
 		    weight = 1
