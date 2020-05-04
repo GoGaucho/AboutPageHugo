@@ -1,0 +1,74 @@
+baseURL = "https://gogaucho.app/"
+DefaultContentLanguage = "en"
+title = "GoGaucho"
+
+theme = "coder"
+enableEmoji = true
+googleAnalytics = "UA-63624052-6"
+
+[params] # theme parameters
+    author = "GoGaucho" # author's name
+    info = "Best campus app for UCSB students" # author's job title or info
+    description = "GoGaucho's offical site" # site description
+    keywords = "GoGaucho,ucsb,app" # site keywords
+
+[languages]
+	[languages.en]
+		languageCode = "en-us"
+		baseURL = "https://gogaucho.app/"
+	[languages.zh]
+    	languageCode = "zh-cn"
+    	info = "UCSB最佳app"
+    	baseURL = "https://gogaucho.app/zh/"
+    	[[languages.zh.params.social]]
+		    name = "苹果AppStore"
+		    weight = 1
+		    url = "https://itunes.apple.com/us/app/gogaucho/id1214417053"
+		[[languages.zh.params.social]]
+		    name = "安卓GooglePlay"
+		    weight = 2
+		    url = "https://play.google.com/store/apps/details?id=com.whyyao.gogaucho.gogaucho"
+        [[languages.zh.params.social]]
+		    name = "网页Web端"
+		    weight = 3
+		    url = "https://web.gogaucho.app"
+		[[languages.zh.menu.main]]
+			name = "关于"
+			url = "/about/"
+    		weight = 3
+        [[languages.zh.menu.main]]
+            name = "隐私条款"
+            url = "/policy/"
+            weight = 2
+        [[languages.zh.menu.main]]
+            name = "招贤纳才"
+            url = "https://docs.google.com/forms/d/e/1FAIpQLSdAJtrgIhPqOmVXh03We6JOCSw1L1KD1EV11mgXdts9P0izfg/viewform?usp=sf_link"
+            weight = 1
+
+# Social links
+[[params.social]]
+    name = "App Store"
+    weight = 1
+    url = "https://itunes.apple.com/us/app/gogaucho/id1214417053"
+[[params.social]]
+    name = "Google Play"
+    weight = 2
+    url = "https://play.google.com/store/apps/details?id=com.whyyao.gogaucho.gogaucho&hl=en_US"
+[[params.social]]
+    name = "Web"
+    weight = 3
+    url = "https://web.gogaucho.app"
+    
+# Menu links
+[[menu.main]]
+    name = "About"
+    weight = 3
+    url = "/about/"
+[[menu.main]]
+    name = "Policy"
+    url = "/policy/"
+    weight = 2
+[[menu.main]]
+    name = "Join"
+    url = "/join/"
+    weight = 1
